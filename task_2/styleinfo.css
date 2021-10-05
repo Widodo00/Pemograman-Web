@@ -1,0 +1,27 @@
+body{
+    margin: 50px 20% 0px 20%;
+    background-image: url(img/bg.jpg);
+    background-size: cover;
+}
+
+p{
+    text-align: center;
+    font-size: 20pt;
+}
+
+table{
+    border-collapse: collapse;
+    background-color: white;
+    border-radius: 45px;
+}
+
+th{
+    background-color: skyblue;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+td{
+    padding-left: 10px;
+    padding-right: 10px;
+}
