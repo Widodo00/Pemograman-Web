@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Formulir Pendaftaran Vaksin</title>
+        <link rel="stylesheet" href="styleform.css">
+    </head>
+    <body>
+        <form method="GET" action="info.html">
+            <fieldset>
+                <legend><b>PENDAFTARAN VAKSIN</b></legend>
+                <table>
+                    <tr>
+                        <td>Nama</td>
+                        <td><input type="text" name="nama" placeholder="Masukkan nama anda"></td>
+                    </tr>
+                    <tr>
+                        <td>No. KTP</td>
+                        <td><input type="text" name="noktp" placeholder="Masukkan nomor KTP anda"></td>
+                    </tr>
+                    <tr>
+                        <td>Tempat, tanggal lahir</td>
+                        <td><input type="text" name="tempat" placeholder="Masukkan tempat lahir anda"><input type="date" name="tanggal"></td>
+                    </tr>
+                    <tr>
+                        <td>Jenis Kelamin</td>
+                        <td><select name="kelamin">
+                            <option>Pilih jenis kelamin</option>
+                            <option>Laki-laki</option>
+                            <option>Perempuan</option>
+                        </select></td>
+                    </tr>
+                    <tr>
+                        <td>No. Handphone</td>
+                        <td><input type="text" name="hp" placeholder="Masukkan nomor handphone anda"></td>
+                    </tr>
+                    <tr>
+                        <td>Alamat</td>
+                        <td><textarea placeholder="Masukkan alamat anda"></textarea></td>
+                    </tr>
+                    <tr>
+                        <td>Kondisi yang anda alami</td>
+                        <td><input type="checkbox" name="kondisi" value="hamil">Sedang hamil/menyusui<br>
+                        <input type="checkbox" name="kondisi" value="ispa">Mengalami gejala ISPA<br>
+                        <input type="checkbox" name="kondisi" value="keluarga covid">Keluarga serumah terkena covid<br>
+                        <input type="checkbox" name="kondisi" value="alergi">Memiliki gejala alergi<br>
+                        <input type="checkbox" name="kondisi" value="jantung">Menderita penyakit jantung<br>
+                        <input type="checkbox" name="kondisi" value="autoimun">Menderita autoimun</td>
+                    </tr>
+                    <tr>
+                        <td>Apakah anda sudah melakukan vaksin pertama?</td>
+                        <td><input type="radio" name="vaksin" value="ya">Ya</td>
+                        <td><input type="radio" name="vaksin" value="tidak">Tidak</td>
+                    </tr>
+                    <tr>
+                          <td><input type="submit" class="button"></td>
+                        </div>
+                    </tr>
+                </table>
+            </fieldset>
+        </form>
+    </body>
+</html>
